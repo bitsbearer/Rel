@@ -9,7 +9,7 @@ Easily access a file relative to the current one in SuperCollider.
 Example:
 
 ```sc
-// Assuming currently loaded file is C:/User/Bits/SC
+// Assuming currently loaded file is C:/User/Bits/SC/main.scd
 Rel("sounds/kick.wav").postln; // -> C:/User/Bits/SC/sounds/kick.wav
 
 // You can easily separate your code in multiple files

@@ -7,7 +7,7 @@ Rel takes a string as input and returns the absolute path relative to the curren
 
 Example:
 code::
-// Assuming currently loaded file is C:/User/Bits/SC
+// Assuming currently loaded file is C:/User/Bits/SC/main.scd
 Rel("sounds/kick.wav").postln; // -> C:/User/Bits/SC/sounds/kick.wav
 
 // You can easily separate your code in multiple files
