@@ -1,0 +1,7 @@
+(
+    \name:           "Rel",
+    \summary:        "Easily access a file relative to the current one.",
+    \author:         "Bits Bearer",
+    \since:          "2021",
+    \url:            "https://github.com/bitsbearer/Rel"
+)

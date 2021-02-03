@@ -1,0 +1,16 @@
+TITLE:: Rel
+summary:: Class to access a file relative to the current one.
+categories:: Utility
+
+DESCRIPTION::
+Rel takes a string as input and returns the absolute path relative to the current file's directory.
+
+Example:
+code::
+// Assuming currently loaded file is C:/User/Bits/SC
+Rel("sounds/kick.wav").postln; // -> C:/User/Bits/SC/sounds/kick.wav
+
+// You can easily separate your code in multiple files
+Rel("synths.scd").load;
+Rel("patterns.scd").load;
+::
